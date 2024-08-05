@@ -1,3 +1,51 @@
-h1{
-    color: black;
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(homepage\ image.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+#header{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}    
+
+#logo{
+    color: beige;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.texts{
+    color: bisque;
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+#subheading{
+    color: antiquewhite;
+    padding-left: 30px;
+    padding-top: 75px;
+    padding-right: 60px;
+}
+
+
+#photo{
+    padding-top: 75px;
+    padding-left: 25px;
 }
